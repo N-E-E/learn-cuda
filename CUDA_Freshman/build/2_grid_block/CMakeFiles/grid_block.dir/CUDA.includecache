@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yu/codings/cuda-work/CUDA_Freshman/2_grid_block/grid_block.cu
+cuda_runtime.h
+-
+stdio.h
+-
+

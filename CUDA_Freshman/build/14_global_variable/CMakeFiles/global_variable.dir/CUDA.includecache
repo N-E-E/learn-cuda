@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yu/codings/cuda-work/CUDA_Freshman/14_global_variable/global_variable.cu
+cuda_runtime.h
+-
+stdio.h
+-
+

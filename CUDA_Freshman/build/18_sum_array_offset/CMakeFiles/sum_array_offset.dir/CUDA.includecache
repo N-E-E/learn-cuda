@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/freshman.h
+time.h
+-
+windows.h
+-
+sys/time.h
+-
+
+/home/yu/codings/cuda-work/CUDA_Freshman/18_sum_array_offset/sum_array_offset.cu
+cuda_runtime.h
+-
+stdio.h
+-
+freshman.h
+/home/yu/codings/cuda-work/CUDA_Freshman/18_sum_array_offset/freshman.h
+

@@ -1,0 +1,1 @@
+/usr/bin/g++  CMakeFiles/AoS.dir/AoS.cu.o -o AoS  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl

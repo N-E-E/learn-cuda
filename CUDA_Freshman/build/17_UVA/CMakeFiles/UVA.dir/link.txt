@@ -1,0 +1,1 @@
+/usr/bin/g++  CMakeFiles/UVA.dir/UVA.cu.o -o UVA  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
