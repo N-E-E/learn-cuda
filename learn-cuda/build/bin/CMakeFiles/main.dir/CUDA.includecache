@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yu/codings/cuda-work/learn-cuda/src/3_sum_arrays.cu
+cuda.h
+-
+stdio.h
+-
+sys/time.h
+-
+
