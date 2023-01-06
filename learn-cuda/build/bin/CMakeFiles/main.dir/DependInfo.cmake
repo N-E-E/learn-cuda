@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
-  "/home/yu/codings/cuda-work/learn-cuda/src/3_sum_arrays.cu" "/home/yu/codings/cuda-work/learn-cuda/build/bin/CMakeFiles/main.dir/3_sum_arrays.cu.o"
+  "/home/yu/codings/cuda-work/learn-cuda/src/10_reduce.cu" "/home/yu/codings/cuda-work/learn-cuda/build/bin/CMakeFiles/main.dir/10_reduce.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 

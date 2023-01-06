@@ -57,27 +57,27 @@ include bin/CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include bin/CMakeFiles/main.dir/flags.make
 
-bin/CMakeFiles/main.dir/3_sum_arrays.cu.o: bin/CMakeFiles/main.dir/flags.make
-bin/CMakeFiles/main.dir/3_sum_arrays.cu.o: ../src/3_sum_arrays.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yu/codings/cuda-work/learn-cuda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object bin/CMakeFiles/main.dir/3_sum_arrays.cu.o"
-	cd /home/yu/codings/cuda-work/learn-cuda/build/bin && /usr/local/cuda/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/yu/codings/cuda-work/learn-cuda/src/3_sum_arrays.cu -o CMakeFiles/main.dir/3_sum_arrays.cu.o
+bin/CMakeFiles/main.dir/10_reduce.cu.o: bin/CMakeFiles/main.dir/flags.make
+bin/CMakeFiles/main.dir/10_reduce.cu.o: ../src/10_reduce.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yu/codings/cuda-work/learn-cuda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object bin/CMakeFiles/main.dir/10_reduce.cu.o"
+	cd /home/yu/codings/cuda-work/learn-cuda/build/bin && /usr/local/cuda-11.6/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/yu/codings/cuda-work/learn-cuda/src/10_reduce.cu -o CMakeFiles/main.dir/10_reduce.cu.o
 
-bin/CMakeFiles/main.dir/3_sum_arrays.cu.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/3_sum_arrays.cu.i"
+bin/CMakeFiles/main.dir/10_reduce.cu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/main.dir/10_reduce.cu.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_PREPROCESSED_SOURCE
 
-bin/CMakeFiles/main.dir/3_sum_arrays.cu.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/main.dir/3_sum_arrays.cu.s"
+bin/CMakeFiles/main.dir/10_reduce.cu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/main.dir/10_reduce.cu.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/3_sum_arrays.cu.o"
+"CMakeFiles/main.dir/10_reduce.cu.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-bin/main: bin/CMakeFiles/main.dir/3_sum_arrays.cu.o
+bin/main: bin/CMakeFiles/main.dir/10_reduce.cu.o
 bin/main: bin/CMakeFiles/main.dir/build.make
 bin/main: bin/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yu/codings/cuda-work/learn-cuda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CUDA executable main"

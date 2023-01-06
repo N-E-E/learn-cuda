@@ -125,32 +125,32 @@ main/fast:
 	cd /home/yu/codings/cuda-work/learn-cuda/build && $(MAKE) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-3_sum_arrays.o: 3_sum_arrays.cu.o
+10_reduce.o: 10_reduce.cu.o
 
-.PHONY : 3_sum_arrays.o
+.PHONY : 10_reduce.o
 
 # target to build an object file
-3_sum_arrays.cu.o:
-	cd /home/yu/codings/cuda-work/learn-cuda/build && $(MAKE) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/3_sum_arrays.cu.o
-.PHONY : 3_sum_arrays.cu.o
+10_reduce.cu.o:
+	cd /home/yu/codings/cuda-work/learn-cuda/build && $(MAKE) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/10_reduce.cu.o
+.PHONY : 10_reduce.cu.o
 
-3_sum_arrays.i: 3_sum_arrays.cu.i
+10_reduce.i: 10_reduce.cu.i
 
-.PHONY : 3_sum_arrays.i
+.PHONY : 10_reduce.i
 
 # target to preprocess a source file
-3_sum_arrays.cu.i:
-	cd /home/yu/codings/cuda-work/learn-cuda/build && $(MAKE) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/3_sum_arrays.cu.i
-.PHONY : 3_sum_arrays.cu.i
+10_reduce.cu.i:
+	cd /home/yu/codings/cuda-work/learn-cuda/build && $(MAKE) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/10_reduce.cu.i
+.PHONY : 10_reduce.cu.i
 
-3_sum_arrays.s: 3_sum_arrays.cu.s
+10_reduce.s: 10_reduce.cu.s
 
-.PHONY : 3_sum_arrays.s
+.PHONY : 10_reduce.s
 
 # target to generate assembly for a file
-3_sum_arrays.cu.s:
-	cd /home/yu/codings/cuda-work/learn-cuda/build && $(MAKE) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/3_sum_arrays.cu.s
-.PHONY : 3_sum_arrays.cu.s
+10_reduce.cu.s:
+	cd /home/yu/codings/cuda-work/learn-cuda/build && $(MAKE) -f bin/CMakeFiles/main.dir/build.make bin/CMakeFiles/main.dir/10_reduce.cu.s
+.PHONY : 10_reduce.cu.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... 3_sum_arrays.o"
-	@echo "... 3_sum_arrays.i"
-	@echo "... 3_sum_arrays.s"
+	@echo "... 10_reduce.o"
+	@echo "... 10_reduce.i"
+	@echo "... 10_reduce.s"
 .PHONY : help
 
 

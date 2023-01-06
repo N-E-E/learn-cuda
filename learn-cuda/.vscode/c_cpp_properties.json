@@ -5,20 +5,21 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}",
-                "/usr/include",             
+                "/usr/include",
                 "/usr/include/x86_64-linux-gnu/sys",
                 "/usr/local/cuda-11.6/include"
             ],
             "defines": [],
-            "browse":{
-                "path":[
+            "browse": {
+                "path": [
                     "/usr/include"
                 ]
             },
             "compilerPath": "/usr/local/cuda-11.6/bin/nvcc",
             "cStandard": "c11",
             "cppStandard": "c++11",
-            "intelliSenseMode": "gcc-x64"
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4

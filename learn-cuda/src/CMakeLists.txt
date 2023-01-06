@@ -1,1 +1,1 @@
-add_executable(main 3_sum_arrays.cu)
+add_executable(main 10_reduce.cu)

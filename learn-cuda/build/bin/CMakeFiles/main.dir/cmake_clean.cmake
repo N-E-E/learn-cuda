@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/3_sum_arrays.cu.o"
+  "CMakeFiles/main.dir/10_reduce.cu.o"
   "main"
   "main.pdb"
 )

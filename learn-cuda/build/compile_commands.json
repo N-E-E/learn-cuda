@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yu/codings/cuda-work/learn-cuda/build/bin",
+  "command": "/usr/local/cuda-11.6/bin/nvcc    -g   -x cu -c /home/yu/codings/cuda-work/learn-cuda/src/10_reduce.cu -o CMakeFiles/main.dir/10_reduce.cu.o",
+  "file": "/home/yu/codings/cuda-work/learn-cuda/src/10_reduce.cu"
+}
+]

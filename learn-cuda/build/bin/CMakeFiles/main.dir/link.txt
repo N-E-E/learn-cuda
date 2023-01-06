@@ -1,1 +1,1 @@
-/usr/bin/g++  CMakeFiles/main.dir/3_sum_arrays.cu.o -o main  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+/usr/bin/g++  CMakeFiles/main.dir/10_reduce.cu.o -o main  -L"/usr/local/cuda-11.6/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-11.6/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl

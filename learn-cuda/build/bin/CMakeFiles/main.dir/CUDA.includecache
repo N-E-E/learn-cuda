@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/yu/codings/cuda-work/learn-cuda/src/3_sum_arrays.cu
+/home/yu/codings/cuda-work/learn-cuda/include/header.h
 cuda.h
--
-stdio.h
 -
 sys/time.h
 -
+stdio.h
+-
+
+/home/yu/codings/cuda-work/learn-cuda/src/10_reduce.cu
+cuda.h
+-
+../include/header.h
+/home/yu/codings/cuda-work/learn-cuda/include/header.h
 
